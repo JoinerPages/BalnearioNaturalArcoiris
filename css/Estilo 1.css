@@ -1,0 +1,56 @@
+
+div img{
+    float: center
+}
+
+
+footer{
+	margin:auto;
+	float: center;
+	background-image: linear-gradient(red, yellow)
+    color: white;
+	width: 1142px;
+ 	height: 100px;
+
+	text-align: center;
+}
+div img{
+	float: center;
+}
+
+
+
+}
+input {
+	font:inherit;
+}
+}
+form {
+	margin: auto;
+}
+form > div {
+	display: flex;
+	background:#fff;
+	padding: 9px 22px 9px 26px;
+	border-radius: 30px;
+	border:2px solid #cad3dc;
+	box-shadow: rgba(255, 255, 255, 0.5) -8px -8px 15px,
+		rgba(0, 0, 0, 0.1) 10px 10px 10px,
+		rgba(255, 255, 255, 0.5) -8px -8px 15px inset,
+		rgba(0, 0, 0, 0.1) 10px 10px 10px inset;
+}
+form input {
+	border:none;
+	background: transparent;
+	font-weight: bold;
+	padding-left: 24px;
+	background-image: url(https://image.flaticon.com/icons/png/512/116/116836.png);
+	background-size: 16px;
+	background-repeat: no-repeat;
+	width: 0px;
+	transition: all 1s;
+}
+form input:focus {
+	outline: none;
+	width: 300px;
+}
