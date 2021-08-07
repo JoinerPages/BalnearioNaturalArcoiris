@@ -52,5 +52,9 @@ form input {
 }
 form input:focus {
 	outline: none;
-	width: 300px;
+	width: 200px;
+}
+
+footer{
+	background-color:   #CEF6D8;
 }
